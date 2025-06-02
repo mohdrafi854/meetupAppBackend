@@ -6,7 +6,7 @@ const { initializeDatabase } = require("./db/db.connect");
 const Events = require("./models/events.models");
 
 const corsOptions = {
-  origin: "https://meetup-event.vercel.app/",
+  origin: "https://meetup-event.vercel.app",
   credentials: true,
 };
 
